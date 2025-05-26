@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    height: 109vh; 
+}
+
+body {
+    margin: 0;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 16px;
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.card-content p{
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.1;
+}
+/* Basic styling for the entire section */
+#about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    
+}
+
+/* Styling for headings */
+#about-me h1 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: rgb(150, 2, 2);
+    border-radius: 12px;
+    
+}
+
+.abt-profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+#about-me h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    color: #ffffff;
+    
+    
+}
+
+#about-me h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #1e90ff;
+}
+
+/* Styling for paragraphs */
+#about-me p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+/* Styling for the list */
+#about-me ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#about-me ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Adding some emphasis to the list item titles */
+#about-me ul li strong {
+    color: #fd0000;
+}
+
+/* Basic styling for the services section */
+.services {
+    background-color: #414141;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Link styling */
+#about-me a {
+    color: #080808;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#about-me a:hover {
+    text-decoration: underline;
+}
+
+/* Adding some spacing for a clean layout */
+#about-me h2, #about-me h3 {
+    margin-top: 1.5em;
+}
+
+.copyright{
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        background: #a50000;
+        font-weight: 300;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+    
+    .copyright i{
+        color: #ffffff;
+    }
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #about-me {
+        padding: 15px;
+    }
+
+    #about-me h1 {
+        font-size: 2em;
+    }
+
+    #about-me h2 {
+        font-size: 1.75em;
+    }
+
+    #about-me h3 {
+        font-size: 1.25em;
+    }
+
+    #about-me p, #about-me ul li {
+        font-size: 0.95em;
+    }
+}
